@@ -61,7 +61,7 @@ class Email:
 if __name__ == '__main__':
     recipients = ['some.recipient@gmail.com']
 
-    mail_google = Email('your.email@gmail.com', 'your_password')
-    mail_google.send_email("subject", recipients, "message")
-    mail_google.receive_email()
+    mail = Email('your.email@gmail.com', 'your_password')
+    mail.send_email("subject", recipients, "message")
+    mail.receive_email()
 
